@@ -1,0 +1,225 @@
+body {
+    background-color: rgb(180, 55, 87);
+}
+.container-main {
+    background-color: rgb(249, 255, 227);
+    height: 1000px;
+    width: 1400px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.container-header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#container-header-images1 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+#container-header-images4 {
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+#container-header-search-input {
+    padding-right: 200px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    transition: width 2s;
+    transition-delay: 1s;
+}
+
+#container-header-search-input:hover {
+    padding-left: 45px;
+}
+
+#container-header-username {
+    margin-left: 3px;
+}
+
+.container-section {
+    float: left;
+    background-color: black;
+    height: 947px;
+    width: 200px;
+    text-align: center;
+
+}
+
+
+.container-section-sidebar {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.container-section-sidebar:hover {
+    background-color: rgb(180, 55, 87);
+}
+
+#home {
+
+    margin-top: 20px;
+}
+
+.container-hotelimg-images {
+    display: flex;
+    align-items: center;
+}
+
+.container-hotelreviews-hotel1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -4px;
+    background-color: white;
+}
+.container-hotel-facilities{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+}
+
+#location {
+    color: rgb(180, 55, 87);
+    margin-left: 700px;
+}
+
+#hotel1-rating {
+    background-color: rgb(180, 55, 87);
+    padding-right: 10px;
+    padding-left: 20px;
+
+}
+
+#hotelrating {
+    margin-bottom: -8px;
+    color: white;
+}
+
+#sub1 {
+    color: white;
+}
+
+#hotelname {
+    margin-left: 15px;
+}
+
+.container-description-hotel {
+    display: flex;
+}
+
+.container-description-hotel1 {
+    background-color: white;
+    margin-left: 50px;
+    width: fit-content;
+    height: 400px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#user1-review-image,
+#user2-review-image {
+    border-radius: 50%;
+}
+
+.container-section-review-user1 {
+    margin-top: 17px;
+    background-color: white;
+    margin-left: 70px;
+    padding: 7px;
+}
+
+.container-section-review-user2 {
+    background-color: white;
+    margin-left: 70px;
+    margin-top: 50px;
+    padding: 7px;
+}
+
+.container-booking-button1 {
+    background-color: rgb(180, 55, 87);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container-booking-button {
+    height:fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: rgb(180, 55, 87);
+    margin-left: 250px;
+    margin-top: 150px;
+}
+.container-section-reccomend{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#user-ratings {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+
+#user1-full-review {
+    margin-left: 9px;
+}
+
+#ratings {
+    margin-left: 11px;
+}
+
+#ratings-color {
+    color: rgb(180, 55, 87);
+}
+
+#username1 {
+    margin-bottom: -5px;
+}
+
+#user-review-person2,
+#user-review-person3,
+#user-review-person4 {
+    border-radius: 50%;
+    margin-left: -21px;
+
+}
+
+#user-review-person1 {
+    border-radius: 50%;
+}
+
+#link-seemore {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+#seemore-button {
+    color: rgb(180, 55, 87);
+}
+
+#copyright {
+    color: white;
+    margin-top: 700px;
+}
